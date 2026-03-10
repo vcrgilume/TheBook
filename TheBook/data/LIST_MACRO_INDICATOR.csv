@@ -1,0 +1,52 @@
+symbol;code;name;area;criterion;long_name;source;type
+gdp;WDI/NY.GDP.MKTP.KN;GDP (constant LCU);Economic Stability;Growth and Output;GDP is the sum of gross value added by all resident producers in the economy plus any product taxes and minus any subsidies not included in the value of the products. It is calculated without making deductions for depreciation of fabricated assets or for depletion and degradation of natural resources. Data are in constant local currency.;;A
+gov_realgdp_growth;STF/GDPRYOY_F;Real GDP Growth Rate;Economic Stability;Growth and Output;Real GDP Growth (y/y, %) (y/y, %);;A
+headline_inflation;TACECO/CPIYOY;Healine CPI Inflation (y/y, %);Economic Stability;Inflation;Healine CPI Inflation (y/y, %);;C
+core_inflation;;Core CPI Inflation (y/y, %);Economic Stability;Inflation;Core CPI Inflation (y/y, %);;C
+gov_unempl_rate;WEO/LUR;Unemployment rate;Economic Stability;Labor Market;Unemployment rate (Percent of total labor force);;B
+output_gap;OECD/EO114_LTB_GAP_S0_A;Output gap in percent of potential GDP (Percent of potential GDP);Economic Stability;Growth and Output;Output gap in percent of potential GDP;;B
+reer;GEM/REER_M;Real Effective Exchange Rate (REER);Economic Stability;Exchange Rate Stability;Real Effective Exchange Rate (REER);;B
+gov_under_balance;OECD/EO114_LTB_NLGXQU_S0_A;Underlying government primary balance;fiscal soundness;Government Balance;Underlying government primary balance % of Potential GDP;;A
+gov_stru_balance;WEO/GGSB_NPGDP;General government structural balance ;fiscal soundness;Government Balance;General government structural balance % of potential GDP ;;A
+gov_prim_balance;WEO/GGXONLB;Government primary balance;fiscal soundness;Government Balance;Government primary balance, % of GDP,Baseline (% of GDP);;A
+gov_revenues;OECD/EO114_LTB_YRGXQA_S0_A;Government receipts;fiscal soundness;Government Balance;Cyclically adjusted current government receipts excluding interest, % of potential GDP;;A
+gov_spending;WEO/GGX;General government total expenditure;fiscal soundness;Government Revenues and Expenditures;General government total expenditure % of GDP;;B
+gov_gross_debt;WEO/GGXWDG;General government gross debt;fiscal soundness;Government Revenues and Expenditures;Gross debt position % of GDP;;B
+gov_debt_services;COUNTRYRISK/DEBTSERV;Debt service ;fiscal soundness;Debt sustainability;Debt service is an indicator assessing a country's external financing and its ability to meet its foreign currency obligations.;;B
+gov_interest_payment;WDI/GC.XPN.INTP.RV.ZS;Interest payments (% of revenue);fiscal soundness;Debt sustainability;Interest payments include interest payments on government debt--including long-term bonds, long-term loans, and other debt instruments--to domestic and foreign residents.;;B
+gov_net_debt;WEO/GGXWDN;Net Government debt;fiscal soundness;Debt sustainability;Net debt % of GDP;;B
+gov_gross_debt;WEO/GGXWDG;Gross  Government Debt;fiscal soundness;Debt sustainability;Gross Central Government Debt to GDP;;B
+gov_credit_gdp;BIS/CREDIT_GAP_P_A_A;Credit-to-GDP gaps;fiscal soundness;Extrernal liquidity;Credit-to-GDP gaps, credit-to-gdp ratios (actual data) ();;B
+gov_finaccount;BOP/BFDL_BP6_USD_Q;Financial account;fiscal soundness;Extrernal liquidity;Financial account, Net lending (+) / net borrowing (-) (balance from financial account);;B
+gov_national_accounts;FSI/NGDP_XDC_Q;National Accounts;fiscal soundness;Extrernal liquidity;National Accounts, Expenditure, Gross Domestic Product ;;B
+gov_fiscal_bal;IFS/CG01_GXCCB_G01_CA_XDC_M;Fiscal, Central Government, Cash surplus/deficit [CSD_CA], 2001 Manual, Cash ( Domestic Currency);fiscal soundness;Government Balance;Fiscal, Central Government, Cash surplus/deficit [CSD_CA], 2001 Manual, Cash, Domestic Currency;;A
+gov_curr_acc;WDI/BN.CAB.XOKA.GD.ZS;Current account balance (% of GDP);External Vulnerability;Current Account and Reserves;Current account balance (% of GDP);;A
+gov_st_debt;WDI/DT.DOD.DSTC.IR.ZS;Short-term debt (% of total reserves);External Vulnerability;Debt metrics;Short Term Debt;;B
+gov_ext_debt;WDI/DT.DOD.DECT.GN.ZS;External debt stocks (% of GNI);External Vulnerability;Debt metrics;External debt stocks (% of GNI);;B
+gov_score_debtbal;COUNTRYRISK/SCORE_DEBT;Score on Debt Balance;External Vulnerability;Debt metrics;Debt Balance measures the structural quality of a country's external funding and its ability to balance debt with more stable inflows of foreign direct investment.;;B
+prv_debt_service;BIS/DSR_P;Debt service private non-financial sector;External Vulnerability;Debt metrics;Debt service ratios for the private non-financial sector (%), private non-financial sector ();;B
+gov_Iinv_position;BOP/IFR_BP6_USD_A;Net International Investment Position (With Fund Record), US Dollars;External Vulnerability;Current Account and Reserves;Net International Investment Position (With Fund Record), US Dollars;;A
+gov_net_fasset;IFS/FASF_XDC_M;Monetary, Central Bank Survey, Net Foreign Assets ( Domestic Currency);External Vulnerability;Reserves and Liquidity;Monetary, Central Bank Survey, Net Foreign Assets ( Domestic Currency);;A
+fdi;WDI/BN.KLT.DINV.CD;Foreign direct investment;External Vulnerability;Current Account and Reserves;Foreign direct investment, net (BoP, current US$);;A
+imports;WEO/TM_RPCH;imports of goods and services;External Vulnerability;Current Account and Reserves;Volume of imports of goods and services (Percent change);;A
+gov_reserves;IFS/RAFA_XDR_M;Total Reserves;External Vulnerability;Current Account and Reserves;Reserves to Imports  // Total reserves in months of imports;;A
+gov_reserves_import;WDI/FI.RES.TOTL.MO;Total reserves in months of imports;External Vulnerability;Current Account and Reserves;Reserves to Exports;;A
+gov_credit_gdp;BIS/CREDIT_GAP_P_A_A;Credit-to-GDP gaps, credit-to-gdp ratios (actual data);Credit and Liquidity;Credit Metrics;Credit-to-GDP gaps, credit-to-gdp ratios (actual data);;A
+go_domcred_private;WDI/FS.AST.PRVT.GD.ZS;Domestic credit to private sector (% of GDP);Credit and Liquidity;Credit Metrics;Domestic credit to private sector (% of GDP);;B
+gov_money_reserve;WDI/FM.LBL.BMNY.IR.ZS;Broad money to total reserves ratio ();Credit and Liquidity;Liquidity and Resilience;Credit to GDP;;B
+gov_broad_money;IFS/FMB_XDC_M;Broad money ;Credit and Liquidity;Credit Metrics;Broad money ;;B
+gov_liquidity_score;COUNTRYRISK/SCORE_LIQUIDITY;Liquidity Balance Index;Credit and Liquidity;Liquidity and Resilience;The Liquidity Balance assesses the ST foreign currency position a country by looking at the level of foreign exchange reserves and of ST foreign currency obligations.;;C
+gov_financial_soundness;FSI/FSSNO_PT_Q;Financial Soundness Indicators;Credit and Liquidity;Financial Stability;Financial Soundness Indicators;;B
+gov_roa;FSI/FSERA_PT_Q;Financial Soundness Indicators, Core Set, Deposit Takers, Earnings and Profitability, Return on Assets (Percent);Credit and Liquidity;Financial Stability;Financial Soundness Indicators, Core Set, Deposit Takers, Earnings and Profitability, Return on Assets (Percent);;B
+gov_roe;FSI/FSERE_PT_Q;Financial Soundness Indicators, Core Set, Deposit Takers, Earnings and Profitability, Return on Equity (Percent);Credit and Liquidity;Financial Stability;Financial Soundness Indicators, Core Set, Deposit Takers, Earnings and Profitability, Return on Equity (Percent);;B
+mktcap_country;WDI/CM.MKT.LCAP.CD;Country Market capitalization;Market & Sovereign Risk;Market Performance;Market capitalization of listed domestic companies (current US$);;C
+gov_potgrowth;LTF/GDPRYOY_F;potential real GDP growth;Market & Sovereign Risk;Market Performance;LT potential real GDP growth (%);;A
+gov_productivity;LTF/TFP;productivity growth;Market & Sovereign Risk;Market Performance;Total factor productivity growth (%);;A
+gov_cli;OECD/MEI_CLI_LOLITOAA_M;Composite Leading Indicator;Market & Sovereign Risk;Economic Sentiment and Socioeconomic Factors;Composite Leading Indicator - Corrigé de l'amplitude ();;A
+gov_risk_premium;COUNTRYRISK/CRP;Country Risk Premium ;Market & Sovereign Risk;Sovereign Risk ;Country Risk Premium ;;C
+gov_sentiment_index;SENTIMENT/CSI;Country Sentiment level;Market & Sovereign Risk;Sovereign Risk ;Country Sentiment level;;C
+gov_gini;WDI/SI.POV.GINI;GINI;Market & Sovereign Risk;Economic Sentiment and Socioeconomic Factors;GINI;;B
+gov_rating;;Credit Ratings from Major Agencies (Moody’s, S&P, Fitch);Market & Sovereign Risk;Sovereign Risk ;Credit Ratings from Major Agencies (Moody’s, S&P, Fitch);;B
+gov_risk_premium;COUNTRYRISK/CRP;Country Risk Premium ;Market & Sovereign Risk;Economic Sentiment and Socioeconomic Factors;Country Risk Premium ;;C
+fx_risk_premium;COUNTRYRISK/FXLIQUID;Forex Liquidity ;Market & Sovereign Risk;Sovereign Risk ;Forex Liquidity ;;C
+gov_real_growth;WDI/FR.INR.RINR;Real interest rate;Market & Sovereign Risk;Market Performance;Real interest rate;;B
